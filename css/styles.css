@@ -1,0 +1,101 @@
+:root {
+     --color-brand:#4D5AE5;
+}
+
+/*____________BODY___________________*/
+ body {
+    /* color: var(--color-text);
+    font-family:'Roboto', sans-serif; 
+    background-color: var(--color-brand-second);
+    font-size: 16px; 
+    font-weight: 500; */
+
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;}
+
+a {
+    text-decoration: none ;
+}
+
+ul, ol {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
+img {
+	display: block;
+	width: 100%;
+    height: auto;
+}
+button {
+    cursor: pointer;
+}
+
+.container { 
+max-width: 100%;
+padding: 0 20px ;
+margin: 0 auto;
+outline: 2px solid red;
+outline-offset: -2px ;
+} 
+
+.section {
+    padding: 80px 0;
+    width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/*____________BODY END___________________*/
+
+/*____________HERO START___________________*/
+/*____________HERO END___________________*/
+
+/*____________RUNNING-STRING-START___________________*/
+/*____________RUNNING-STRING-END___________________*/
+
+/*____________ABOUT START___________________*/
+/*____________ABOUT END___________________*/
+
+/*____________COURSES START___________________*/
+/*____________COURSES END___________________*/
+
+/*____________MENTORS START___________________*/
+/*____________MENTORS END___________________*/
+
+/*____________SIGN START___________________*/
+/*____________SIGN END___________________*/
+
+/*____________REVIEWS START___________________*/
+/*____________REVIEWS END___________________*/
+
+/*____________FOOTER START___________________*/
+/*____________FOOTER END___________________*/
+
+/*____________MODAL WINDOW START___________________*/
+/*____________FMODAL WINDOW END___________________*/
+
+/*____________MOBILE MENU START___________________*/
+/*____________MOBILE MENU END___________________*/

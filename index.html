@@ -27,21 +27,20 @@
 <body>
 <!--HEADER START-->
 <header class="header-menu">
-    <div class="header-wrapper">
-        
-<nav>
-    <a class="header-logo" href="./index.html">
-    <svg class="header-icon" width="123" height="16"><use href="./images/icons.svg#icon-instagram"></use></svg>
-    </a>
+    <div class="header-wrapper container">
+        <nav class="header-nav">
+            <a class="header-logo link" href="./index.html">
+                <svg class="header-icon" width="123" height="16"><use href="./images/icons.svg#icon-instagram"></use></svg>
+            </a>
 
-    <ul class="header-list"><!--NEED ID FOR MOVING?-->
-        <li class="hero-item"><a href="#about">About us</a></li>
-        <li class="hero-item"><a href="#courses">Our courses</a></li>
-        <li class="hero-item"><a href="#mentors">Our mentors</a></li>
-        <li class="hero-item"><a href="#reviews">Reviews</a></li>
-        <li class="hero-item"><a href="#contacts">Contacts</a></li>
-    </ul>
-    </nav>
+            <ul class="header-nav-list list">
+                <li class="header-nav-item"><a class="header-nav-link link" href="#about">About us</a></li>
+                <li class="header-nav-item"><a class="header-nav-link link" href="#courses">Our courses</a></li>
+                <li class="header-nav-item"><a class="header-nav-link link" href="#mentors">Our mentors</a></li>
+                <li class="header-nav-item"><a class="header-nav-link link" href="#reviews">Reviews</a></li>
+                <li class="header-nav-item"><a class="header-nav-link link" href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
             <button class="header-menu-btn"><svg class="menu-toggle-icon" width="32" height="22"><use href="./images/icons.svg#icon-menu"></use></svg></button>
             <button class="header-menu-btn-photo"><svg class="menu-toggle-icon" width="16" height="16"><use href="./images/icons.svg#icon-menu"></use></svg></button>
             <button class="button-hero" type="button">Sign up</button>
@@ -51,8 +50,8 @@
 
 <main>
     <!--HERO START-->
-    <section class="hero">
-        <div class="hero-wrapper">       
+    <section class="hero section">
+        <div class="hero-wrapper container">       
             <h1 class="hero-title">Discover the magic of <span class="hero-title-span">photography</span>in our school</h1>
             <p class="hero-text">Our photography school offers an unforgettable journey, where you can learn the basics of composition, master technical skills, translate your unique ideas.</p>
             <div class="hero-stat">
@@ -103,16 +102,16 @@
 
     
     <!--RUNNING-STRING-START-->
-    <section class="running-string">
-        <div class="running-string-inner">
+    <section class="running-string section">
+        <div class="running-string-inner container">
             <h2 class="running-string-title"><span class="running-string-span">Master</span> your photography<span class="running-string-end">skills with us!</span></h2>
         </div>
     </section>
     <!--RUNNING-STRING-END-->
 
     <!--ABOUT-START-->
-    <section class="about">
-        <div class="about-inner">
+    <section class="about section">
+        <div class="about-inner container">
             <div class="about-box" id="about">
                 <h2 class="about-title">About<span class="about-span">Us</span></h2>
             </div>
@@ -132,8 +131,8 @@
     <!--ABOUT-END-->
 
     <!--COURSES-START-->
-    <section class="courses">
-        <div class="courses-box" id="courses">
+    <section class="courses section">
+        <div class="courses-box container" id="courses">
             <h2 class="courses-title">Our<span class="courses-span">Courses</span></h2>
             <p class="courses-text">At our photography school, we offer a variety of courses that cover all aspects of this fascinating art. Regardless of your experience or skill level, we have courses to suit your needs and goals.</p>
         </div>
@@ -163,8 +162,8 @@
     <!--COURSES-END-->
 
     <!--MENTORS-START-->
-    <section class="mentors">
-        <div class="mentors-box" id="mentors">
+    <section class="mentors section">
+        <div class="mentors-box container" id="mentors">
             <h2 class="mentors-title">Our<span class="mentors-title-span">Mentors</span></h2>
             <ul class="mentors-list">
                 <li class="mentors-item">
@@ -193,8 +192,8 @@
     <!--MENTORS-END-->
 
     <!--SIGN-START-->
-    <section class="sign">
-        <div class="sign-box" id="contacts">
+    <section class="sign section">
+        <div class="sign-box container" id="contacts">
             <h3 class="sign-title">Sign Up</h3>
             <p class="sign-text"></p>
 
@@ -217,8 +216,8 @@
     <!--SIGN-END-->
 
     <!--REVIEWS-START-->
-    <section class="reviews-section">
-        <div class="reviews-box" id="reviews">
+    <section class="reviews-section section">
+        <div class="reviews-box container" id="reviews">
             <h2 class="reviews-title">Reviews</h2>
             <ul class="rewiews-list">
                 <li class="reviews-item">
@@ -319,5 +318,25 @@
             </div>
     </footer>
     <!--FOOTER-END-->
+
+    <!--MODAL WINDOW START-->
+    <!--MODAL WINDOW END-->
+    <!--MOBILE-MENU-START-->
+        <div class="menu-container">
+            <button class="mobile-menu-btn">
+                <svg class="mobile-menu-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-cross"></use>
+                </svg>
+            </button>
+            <ul class="mobile-nav-list list">
+                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#about">About us</a></li>
+                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#courses">Our courses</a></li>
+                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#mentors">Our mentors</a></li>
+                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#reviews">Reviews</a></li>
+                <li class="mobile-nav-item"><a class="mobile-nav-link link" href="#contacts">Contacts</a></li>
+            </ul>
+
+    </div>
+    <!--MOBILE-MENU-END-->
     </body>
 </html>
