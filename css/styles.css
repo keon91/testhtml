@@ -79,6 +79,74 @@ outline-offset: -2px ;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+/*___________________HEADER START___________________*/
+.header-menu {
+
+}
+.header-wrapper {
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.header-nav {
+        display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-logo {
+  
+
+}
+
+.header-icon {
+   
+   
+}
+@media screen and (max-width:1440px){
+    .header-nav-list {
+        display: none;
+    }}
+
+@media screen and (min-width:1440px){
+    .header-nav-list {
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase
+}
+}
+
+.header-nav-item {
+}
+.header-nav-link {
+}
+.header-menu-btn-photo {
+}
+.menu-toggle-photo {
+}
+.header-menu-btn {
+}
+.menu-toggle-menu {
+}
+.button-hero {
+display: flex;
+padding: 16px 58px;
+justify-content: center;
+align-items: center;
+border-radius: 12px;
+background: #FFF;
+border: none;
+}
+
+
+/*___________________HEADER END___________________*/
 /*____________BODY END___________________*/
 
 /*____________HERO START___________________*/
