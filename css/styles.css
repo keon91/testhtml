@@ -114,6 +114,7 @@ outline-offset: -2px ;
 
 }
 .header-logo {
+    fill: var(--text-color);
   
 
 }
@@ -148,13 +149,30 @@ text-transform: uppercase
 }
 .header-menu-btn-photo {
     margin-right: 14px;
+   
 }
 .menu-toggle-photo {
+    
 }
 .header-menu-btn {
+    width: 32px;
+    height: 22px;
+ 
+     
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: auto;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
     
 }
 .menu-toggle-menu {
+  
    
  
    
@@ -701,6 +719,9 @@ letter-spacing: -0.28px;
 .link {
 }
 .footer-contacts-icon {
+    fill: var(--text-color);
+    width: 127px;
+    height: 20px;
 }
 .footer-adress {
 }
