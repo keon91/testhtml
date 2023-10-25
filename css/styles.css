@@ -85,10 +85,12 @@ outline-offset: -2px ;
 
 }
 .header-wrapper {
-        display: flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
-    
+    min-width: 375px;
+    width: 100%;
+
 }
 
 .header-nav {
@@ -152,8 +154,7 @@ border: none;
 /*____________HERO START___________________*/
 .hero-wrapper {
 }
-.container {
-}
+
 .hero-title {
     color: #FFF;
 
@@ -516,25 +517,247 @@ letter-spacing: -0.28px;
 .box-name {
 }
 .input-name {
+    color: #FFF;
+
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+background-color: var(--background-c);
+border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+min-width: 335px;
+width: 100%;
+min-height: 46px;
+height: 100%;
+padding-left: 18px;
+margin-right: auto;
+
 }
 .box-email {
 }
 .box-comment {
 }
 .text-area {
+    color: #FFF;
+
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+background-color: var(--background-c);
+border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+min-width: 335px;
+width: 100%;
+min-height: 112px;
+height: 100%;
+padding-left: 18px;
+margin-right: auto;
+padding-top: 14px;
 }
 .btn {
+    display: flex;
+width: 335px;
+padding: 14px 127px;
+justify-content: center;
+align-items: center;
+color: var(--background-c);
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 20px; /* 125% */
+text-transform: uppercase;
+border-radius: 12px;
+background: var(--text-color);
+border: none;
 }
 .privacy {
+color: rgba(255, 255, 255, 0.50);
+font-family: DM Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+
+min-width: 335px;
 }
 .link-policy {
+    color: rgba(255, 255, 255, 0.50);
+font-family: DM Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px;
+text-decoration-line: underline;
 }
 /*____________SIGN END___________________*/
 
 /*____________REVIEWS START___________________*/
+.reviews-section {
+}
+.section {
+}
+.reviews-box {
+}
+.container {
+}
+.reviews-title {
+color: #FFF;
+
+font-family: DM Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px; /* 114.286% */
+letter-spacing: -1.12px;
+}
+.rewiews-list {
+}
+.reviews-item {
+}
+.reviews-name {
+color: #FFF;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 120% */
+}
+.reviews-prof {
+color: rgba(255, 255, 255, 0.50);
+font-family: DM Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+letter-spacing: -0.24px;
+}
+.reviews-text {
+color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+letter-spacing: -0.28px;
+}
 /*____________REVIEWS END___________________*/
 
 /*____________FOOTER START___________________*/
+.footer {
+}
+.footer-inner {
+}
+.container {
+}
+.footer-contacts {
+}
+.footer-contacts-link {
+}
+.link {
+}
+.footer-contacts-icon {
+}
+.footer-adress {
+}
+.footer-contacts-list {
+    color: #FFF;
+
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px; /* 128.571% */
+text-transform: uppercase;
+}
+.list {
+}
+.footer-contacts-item {
+}
+.footer-socials-box {
+}
+.footer-socials-list {
+color: #FFF;
+
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.footer-socials-item {
+}
+.footer-socials-link {
+}
+.footer-menu {
+}
+.footer-menu-list {
+color: #FFF;
+
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.footer-menu-item {
+}
+.footer-menu-link {
+}
+.footer-reg {
+}
+.footer-input {
+    color: #121212;
+
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+padding-left: 18px;
+padding-right: auto;
+width: 267px;
+height: 60px;
+border-radius: 12px;
+border: none;
+}
+.footer-button-reg {
+color: #FFF;
+
+text-align: center;
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+
+border-radius: 12px;
+background: #1D1D1D;
+border: none;
+width: 60px;
+height: 60px;
+}
+.footer-privacy {
+}
+.footer-privacy-list {
+}
+.footer-privacy-item {
+}
+.footer-privacy-text {
+    color: #FFF;
+
+font-family: DM Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+}
 /*____________FOOTER END___________________*/
 
 
