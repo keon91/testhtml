@@ -53,7 +53,7 @@ button {
 }
 
 .container { 
-max-width: 100%;
+max-width: 375px;
 padding: 0 20px ;
 margin: 0 auto;
 
@@ -88,15 +88,20 @@ outline-offset: -2px ;
     display: flex;
     flex-direction: row;
     align-items: center;
-    min-width: 375px;
-    width: 100%;
+    margin-right: auto;
+    justify-content: center;
+    padding: 15px 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+   
+ 
 
 }
 
 .header-nav {
-        display: flex;
-    flex-direction: row;
-    align-items: center;
+
+
+
 }
 .header-logo {
   
@@ -104,7 +109,9 @@ outline-offset: -2px ;
 }
 
 .header-icon {
-   
+    width: 127px;
+    height: 20px;
+
    
 }
 @media screen and (max-width:1440px){
@@ -134,18 +141,36 @@ text-transform: uppercase
 .menu-toggle-photo {
 }
 .header-menu-btn {
+    
 }
 .menu-toggle-menu {
+ 
+   
 }
-.button-hero {
+@media screen and (max-width:767.98px){ .button-hero {
+    display: none;
+}
+}
+@media screen and (min-width:767.98px){ .button-hero {
 display: flex;
-padding: 16px 58px;
+/* padding: 16px 58px; */
+width: 186px;
+height: 60px;
 justify-content: center;
 align-items: center;
 border-radius: 12px;
 background: #FFF;
 border: none;
+color: #121212;
+
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px; /* 155.556% */
+text-transform: uppercase;
 }
+} 
 
 
 /*___________________HEADER END___________________*/
@@ -527,7 +552,7 @@ line-height: 18px; /* 128.571% */
 background-color: var(--background-c);
 border-radius: 12px;
 border: 1px solid rgba(255, 255, 255, 0.20);
-min-width: 335px;
+max-width: 335px;
 width: 100%;
 min-height: 46px;
 height: 100%;
@@ -550,7 +575,7 @@ line-height: 18px; /* 128.571% */
 background-color: var(--background-c);
 border-radius: 12px;
 border: 1px solid rgba(255, 255, 255, 0.20);
-min-width: 335px;
+max-width: 335px;
 width: 100%;
 min-height: 112px;
 height: 100%;
@@ -559,8 +584,9 @@ margin-right: auto;
 padding-top: 14px;
 }
 .btn {
-    display: flex;
-width: 335px;
+display: flex;
+max-width: 335px;
+width: 100%;
 padding: 14px 127px;
 justify-content: center;
 align-items: center;
@@ -750,8 +776,7 @@ height: 60px;
 .footer-privacy-item {
 }
 .footer-privacy-text {
-    color: #FFF;
-
+color: #FFF;
 font-family: DM Sans;
 font-size: 12px;
 font-style: normal;
