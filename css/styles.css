@@ -10,6 +10,9 @@
     --number:#FFFFFF66;
     --mob-m-icon-cam:#BEA69E66;
     --mob-m-dropbox-c:#12121266;
+    --marquee-elements-displayed: 1;
+    --marquee-element-width: calc(100vw / var(--marquee-elements-displayed));
+    --marquee-animation-duration
 }
 
 /*____________BODY___________________*/
@@ -115,13 +118,13 @@ outline-offset: -2px ;
 }
 .header-logo {
     fill: var(--text-color);
-  
 
 }
 
 .header-icon {
     width: 127px;
     height: 20px;
+    
 
    
 }
@@ -153,6 +156,7 @@ text-transform: uppercase
 }
 .menu-toggle-photo {
     
+    
 }
 .header-menu-btn {
     width: 32px;
@@ -172,6 +176,7 @@ text-transform: uppercase
     
 }
 .menu-toggle-menu {
+   stroke: #BEA69E;
   
    
  
