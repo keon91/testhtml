@@ -269,7 +269,14 @@ letter-spacing: -0.28px;
 margin-bottom: 40px;
 }
 .hero-stat {
+    display: flex;
+    justify-content: space-between;
+    
+    /* flex-basis: calc((100% - 40px) / 2); */
 }
+/* .hero-stat:not(:last-child){
+    gap: 40px;
+} */
 .hero-stat-wrapper {
 }
 /* .hero-stat-wrapper-list {
@@ -285,6 +292,23 @@ margin-bottom: 40px;
 .man-with-camera {
 }
 .hero-box {
+    display: flex;
+    flex-direction: column;
+   
+}
+.hero-box-img-inner{
+
+}
+.hero-box-img{
+    width: 109px;
+    height: 44px;
+}
+
+.hero-wrapper-content{
+    display: flex;
+    column-gap: 4px;
+    max-width: 89px;
+    
 }
 .hero-box-text {
     color: #FFF;
@@ -299,14 +323,17 @@ letter-spacing: -0.56px;
 .hero-box-link {
     width: 18px;
     height: 9px;
-            stroke: var(--background-c);
-     fill: var(--brand-c);
+    stroke: var(--background-c);
+    fill: var(--text-color);
 }
 .hero-box-icon {
 
     
 }
 .hero-pack {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
 }
 .hero-pack-inner {
    display: flex;
