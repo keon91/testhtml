@@ -56,7 +56,6 @@ button {
 }
 
 .container { 
-max-width: 374.98px;
 width: 100%;
 padding: 20px ;
 margin: 0 auto;
@@ -107,8 +106,6 @@ outline-offset: -2px ;
     padding: 15px 20px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
-   
- 
 
 }
 
@@ -157,18 +154,19 @@ text-transform: uppercase
 
 }
 .header-menu-btn-photo {
-    /* margin-right: 14px; */
        background-color: var(--background-c-hero);
        border-radius: 50%;
        /* border-color: var(--background-c-hero); */
        width: 32px;
        height: 32px;
        border: none;
-       margin-right: 14px;
-   
+       /* margin-right: 14px; */
+
 }
 .menu-toggle-photo {
     fill: var(--mob-m-icon-cam);
+
+
  
     
     
@@ -228,7 +226,15 @@ text-transform: uppercase;
 /*____________BODY END___________________*/
 
 /*____________HERO START___________________*/
+.hero{
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
 .hero-wrapper {
+    padding: 40px 20px 0;
+    background-color: var(--background-c-hero);
+    border-radius: 30px;
 }
 
 .hero-title {
@@ -240,6 +246,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 44px; /* 110% */
 letter-spacing: -1.6px;
+margin-bottom: 20px;
 }
 .hero-title-span {
     color: #BEA69E;
@@ -259,19 +266,20 @@ font-style: normal;
 font-weight: 400;
 line-height: 18px; /* 128.571% */
 letter-spacing: -0.28px;
+margin-bottom: 40px;
 }
 .hero-stat {
 }
 .hero-stat-wrapper {
 }
-.hero-stat-wrapper-list {
+/* .hero-stat-wrapper-list {
 }
 .hero-stat-wrapper-item {
 }
 .hero-stat-wrapper-link {
 }
-.hero-stat-wrapper-icon {
-}
+.hero-stat-wrapper-icon { 
+}*/
 .hero-img-box {
 }
 .man-with-camera {
@@ -289,16 +297,34 @@ line-height: 18px; /* 128.571% */
 letter-spacing: -0.56px;
 }
 .hero-box-link {
+    width: 18px;
+    height: 9px;
+            stroke: var(--background-c);
+     fill: var(--brand-c);
 }
 .hero-box-icon {
+
+    
 }
 .hero-pack {
 }
 .hero-pack-inner {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--brand-c)
+    
 }
+
 .hero-pack-inner-link {
 }
 .hero-pack-inner-icon {
+    
+     stroke: var(--background-c);
+     fill: var(--brand-c);
 }
 .hero-pack-inner-box {
 }
