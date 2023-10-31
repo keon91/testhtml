@@ -160,21 +160,20 @@ text-transform: uppercase
        width: 32px;
        height: 32px;
        border: none;
-       /* margin-right: 14px; */
+           display: flex;
+    justify-content: center;
+    align-items: center;
+       margin-right: 14px;
 
 }
 .menu-toggle-photo {
     fill: var(--mob-m-icon-cam);
-
-
  
-    
-    
 }
 .header-menu-btn {
     width: 32px;
     height: 22px;
- 
+    margin: 0;
      
     padding: 0;
     border: 0;
@@ -185,7 +184,11 @@ text-transform: uppercase
     /* margin-left: auto; */
     transition-property: background-color;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .menu-toggle-menu {
@@ -295,9 +298,14 @@ margin-bottom: 40px;
 .hero-box {
     display: flex;
     flex-direction: column;
+    row-gap: 4px;
    
 }
 .hero-box-img-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 
 }
 .hero-box-img{
@@ -364,6 +372,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 18px; /* 128.571% */
 letter-spacing: -0.56px;
+margin-bottom: 4px;
 }
 .hero-pack-inner-number {
     color: #FFF;
@@ -537,6 +546,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 18px; /* 128.571% */
 letter-spacing: -0.28px;
+margin-bottom: 40px;
 }
 .variety {
 }
@@ -562,17 +572,23 @@ letter-spacing: -0.28px;
 .variety-icon-box{
     display: flex;
     justify-content: space-between;
+   margin-bottom: 28px;
     
 
 }
 .variety-link {
     border-radius: 50%;
-    background-color:var(--icon-c);
+    background-color: var(--background-c-hero);
     width: 32px;
     height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .variety-icon {
-    stroke:white;
+    stroke: var(--icon-c);
+    fill: var(--background-c-hero);
+
 }
 .variety-title {
     color: #FFF;
@@ -582,8 +598,8 @@ font-size: 28px;
 font-style: normal;
 font-weight: 500;
 line-height: 32px; /* 114.286% */
-/* margin-bottom: 164px;
-margin: 28px; */
+margin-bottom: 164px;
+/* margin: 28px; */
 }
 .variety-text {
     color: rgba(255, 255, 255, 0.50);
