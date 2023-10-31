@@ -86,13 +86,17 @@ outline-offset: -2px ;
 /*___________________HEADER START___________________*/
 .header-menu {
 
+
 }
 .header-inner{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
+  
+    padding: 0;
+    max-width: 280px;
+    margin-top: 20px;
 
 }
 .header-wrapper {
@@ -106,7 +110,7 @@ outline-offset: -2px ;
     padding: 15px 20px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
-
+    
 }
 
 .header-nav {
@@ -238,6 +242,7 @@ text-transform: uppercase;
     padding: 40px 20px 0;
     background-color: var(--background-c-hero);
     border-radius: 30px;
+    max-width: 280px;
 }
 
 .hero-title {
@@ -454,7 +459,7 @@ text-transform: uppercase;
 .about-inner {
     padding: 0;
     margin: 20px;
-    max-width: 335px;
+    max-width: 280px;
         
     
 }
@@ -511,7 +516,7 @@ letter-spacing: -0.28px;
 .courses-inner{
     padding: 0;
     margin: 20px;
-    max-width: 335px;
+    max-width: 280px;
 }
 .container {
 }
@@ -619,6 +624,9 @@ letter-spacing: -0.28px;
 .section {
 }
 .mentors-box {
+    padding: 0;
+    margin: 20px;
+    max-width: 280px;
 }
 .container {
 }
@@ -631,6 +639,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 32px; /* 114.286% */
 letter-spacing: -1.12px;
+margin-bottom: 40px;
 }
 .mentors-title-span {
     color: #BEA69E;
@@ -642,10 +651,20 @@ line-height: 32px;
 letter-spacing: -1.12px;
 }
 .mentors-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
 }
 .mentors-item {
+
+  
 }
 .mentors-img {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 16px;
 }
 .mentors-item-title {
     color: #FFF;
@@ -656,6 +675,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 120% */
+margin-bottom: 4px;
 }
 .mentors-item-text {
     color: rgba(255, 255, 255, 0.50);
@@ -676,6 +696,9 @@ letter-spacing: -0.24px;
 .section {
 }
 .sign-box {
+    padding: 0;
+    margin: 20px;
+    max-width: 280px;
 }
 .container {
 }
@@ -688,6 +711,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 32px; /* 114.286% */
 letter-spacing: -1.12px;
+margin-bottom: 20px;
 }
 .sign-title-span {
     color: #BEA69E;
@@ -707,6 +731,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 18px; /* 128.571% */
 letter-spacing: -0.28px;
+margin-bottom: 41px;
 }
 .sign-form {
 }
@@ -729,6 +754,7 @@ min-height: 46px;
 height: 100%;
 padding-left: 18px;
 margin-right: auto;
+margin-bottom: 8px;
 
 }
 .box-email {
@@ -753,6 +779,7 @@ height: 100%;
 padding-left: 18px;
 margin-right: auto;
 padding-top: 14px;
+margin-bottom: 40px;
 }
 .btn {
 display: flex;
@@ -771,10 +798,11 @@ text-transform: uppercase;
 border-radius: 12px;
 background: var(--text-color);
 border: none;
+margin-bottom: 20px;
 }
 .box-privacy{
     max-width: 335px;
-    height: 48px;
+    /* height: 48px; */
 }
 .privacy {
 color: rgba(255, 255, 255, 0.50);
@@ -801,8 +829,15 @@ text-decoration-line: underline;
 .section {
 }
 .reviews-box {
+      padding: 0;
+    margin: 20px;
+    max-width: 280px;
 }
 .container {
+}
+.reviews-inner{
+border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.20);
 }
 .reviews-title {
 color: #FFF;
@@ -813,11 +848,41 @@ font-style: normal;
 font-weight: 500;
 line-height: 32px; /* 114.286% */
 letter-spacing: -1.12px;
+margin-bottom: 40px;
 }
 .rewiews-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .reviews-item {
+    padding: 20px;
+        display: flex;
+        align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 4px;
+
 }
+.reviews-desctop{
+    
+}
+/*NOT MOBILE NOT TABLET START*/
+@media screen and (max-width: 1279.98px){
+    .reviews-desctop{
+    display: none;
+}
+}
+/*NOT MOBILE NOT TABLET END*/
+.reviews-item-img{
+
+}   
+.reviews-img{
+    width: 56px;
+    height: 56px;
+}
+
 .reviews-name {
 color: #FFF;
 font-family: DM Sans;
@@ -835,6 +900,21 @@ font-weight: 400;
 line-height: 16px; /* 133.333% */
 letter-spacing: -0.24px;
 }
+
+.reviews-rate {
+    /* display:flex;
+    align-items: center; */
+    margin-left: 66px;
+
+}
+
+.reviews-icon{
+    fill: var(--brand-c);
+}
+.selected-icon {
+    fill:var(--input-c);
+}
+
 .reviews-text {
 color: #FFF;
 font-family: DM Sans;
@@ -843,6 +923,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 18px; /* 128.571% */
 letter-spacing: -0.28px;
+/* min-width: 295px; */
 }
 /*____________REVIEWS END___________________*/
 
@@ -850,12 +931,18 @@ letter-spacing: -0.28px;
 .footer {
 }
 .footer-inner {
+    padding-top: 40px;
 }
 .container {
 }
 .footer-contacts {
+    margin-bottom: 40px;
+}
+.footer-contacts-inner {
+margin-bottom: 16px;
 }
 .footer-contacts-link {
+   
 }
 .link {
 }
@@ -864,6 +951,13 @@ letter-spacing: -0.28px;
     width: 127px;
     height: 20px;
 }
+/* 
+.footer-adress-inner {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+} */
+
 .footer-adress {
 }
 .footer-contacts-list {
@@ -875,12 +969,26 @@ font-style: normal;
 font-weight: 400;
 line-height: 18px; /* 128.571% */
 text-transform: uppercase;
+
+
 }
 .list {
 }
 .footer-contacts-item {
 }
+.footer-contacts-item:not(:last-child){
+margin-bottom: 10px;
+}
+
+.footer-soc-menu-box{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    margin-bottom: 75px;
+}
+
 .footer-socials-box {
+
 }
 .footer-socials-list {
 color: #FFF;
@@ -894,9 +1002,17 @@ text-transform: uppercase;
 }
 .footer-socials-item {
 }
+.footer-socials-item:not(:last-child) {
+    margin-bottom: 14px;
+}
 .footer-socials-link {
 }
 .footer-menu {
+    
+}
+
+.footer-menu-item:not(:last-child) {
+    margin-bottom: 14px;
 }
 .footer-menu-list {
 color: #FFF;
@@ -913,6 +1029,10 @@ text-transform: uppercase;
 .footer-menu-link {
 }
 .footer-reg {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap; */
+    margin-bottom: 40px;
 }
 .footer-input {
     color: #121212;
@@ -946,11 +1066,16 @@ width: 60px;
 height: 60px;
 }
 .footer-privacy {
+    /* display: flex;
+    flex-direction: row; */
 }
 .footer-privacy-list {
 }
 .footer-privacy-item {
 }
+/* .footer-privacy-item:not(:last-child){
+    margin-right: auto;
+} */
 .footer-privacy-text {
 color: #FFF;
 font-family: DM Sans;
